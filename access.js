@@ -1,5 +1,6 @@
 // Logs
 // ssh -i your-key.pem ec2-user@your-ec2-ip
+// ssh -i email-automation-keys.pem ec2-user@13.43.87.188
 // cat ~/email-watcher/emails.log
 // tail -f ~/email-watcher/emails.log
 
