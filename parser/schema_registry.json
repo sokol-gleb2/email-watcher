@@ -1,0 +1,21 @@
+{
+  "event": [
+    "date",
+    "description",
+    "duration",
+    "extra",
+    "location",
+    "prizes",
+    "title",
+    "type"
+  ],
+  "job": [
+    "collaboration_type",
+    "description",
+    "extra",
+    "focus_areas",
+    "industry",
+    "services_offered",
+    "title"
+  ]
+}
