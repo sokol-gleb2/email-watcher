@@ -1,0 +1,18 @@
+{
+  "name": "email-automation",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Node-based IMAP email automation that triggers a Python script.",
+  "main": "emailAutomation.js",
+  "scripts": {
+    "start": "node emailAutomation.js"
+  },
+  "dependencies": {
+    "mailparser": "^3.9.0",
+    "uuid": "^9.0.1",
+    "axios": "^1.10.0",
+    "dotenv": "^16.5.0",
+    "imap": "^0.8.19",
+    "pg": "^8.16.2"
+  }
+}
