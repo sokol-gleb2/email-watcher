@@ -12,8 +12,8 @@ RUN apt-get update && \
     ./configure --enable-optimizations && \
     make -j$(nproc) && \
     make altinstall && \
-    ln -s /usr/local/bin/python3.12 /usr/bin/python3 && \
-    ln -s /usr/local/bin/pip3.12 /usr/bin/pip3
+    ln -sf /usr/local/bin/python3.12 /usr/bin/python3 && \
+    ln -sf /usr/local/bin/pip3.12 /usr/bin/pip3
 
 # Set working directory
 WORKDIR /app
